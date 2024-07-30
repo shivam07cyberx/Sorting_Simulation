@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="headiin">Sorting Algorithm Simulation</h1>
+        <div class="controls">
+            <input type="text" id="input-array" placeholder="Enter numbers separated by commas">
+            <button onclick="parseArray()">Submit</button>
+            <button onclick="sortArray('bubble')">Bubble Sort</button>
+            <button onclick="sortArray('selection')">Selection Sort</button>
+            <button onclick="sortArray('insertion')">Insertion Sort</button>
+            <button onclick="sortArray('merge')">Merge Sort</button>
+            <button onclick="sortArray('quick')">Quick Sort</button>
+        </div>
+        <div class="array-container" id="array-container"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

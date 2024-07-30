@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5d5858;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(2, 2, 2);
+    border: 1px solid #ccc;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+.array-bar {
+    margin: 0 2px;
+    background-color: #b905f0;
+    transition: height 0.3s, background-color 0.3s;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 11px;
+}
+
+.compared {
+    background-color: #FFD700;
+}
+
+.swapped {
+    background-color: #FF4500;
+}
+.headiin{
+    color: #ccc;
+    margin-bottom: 50px;
+}
